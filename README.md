@@ -21,6 +21,14 @@ The part concerning the EJB was entirely developed using the concepts of Java Pe
 On database side, triggers have been implemented that automatically fill tables that hold sales data (which are shown in a TelcoEmployeeWEB section).
 
 ## TelcoEmployeeWEB
+<p align="center">
+ <a href="https://github.com/pietrovalente/TELCO-Websites-databases2/blob/main/Images/EmployeeHomepage.png"><img src="https://github.com/pietrovalente/TELCO-Websites-databases2/blob/main/Images/EmployeeHomepage.png" alt="" width="40%"></a>
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+ <a href="https://github.com/pietrovalente/TELCO-Websites-databases2/blob/main/Images/EmployeeSalesReport.png"><img src="https://github.com/pietrovalente/TELCO-Websites-databases2/blob/main/Images/EmployeeSalesReport.png" alt="" width="40%"></a></p>
 
 ## TelcoConsumerWEB
 
