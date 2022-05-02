@@ -10,7 +10,7 @@ A telco company offers pre-paid online services to web users. Two client applica
 
 - **TelcoEmployeeWEB:**
 - **TelcoConsumerWEB:**
-- **TelcoEJB:***
+- **TelcoEJB:**
 
 The architecture uses the Model-View-Controller (MVC) logical subdivision which involves the use of servlets in the WEB parts that interface with the bean (EJB side) to access the database.
 
@@ -21,3 +21,10 @@ On database side, triggers have been implemented that automatically fill tables 
 ## TelcoEmployeeWEB
 
 ## TelcoConsumerWEB
+
+## Compile and usability
+
+
+## Team
+- Pietro Valente
+- Andrea Seghetto
