@@ -1,1 +1,7 @@
-# TELCO-Websites-databases2
+# TELCO | ConsumerWEB - EmployeeWEB - TelcoEJB
+
+<p align="center">
+    <img src="https://i.imgur.com/mPb3Qbd.gif" width="180" alt="Politecnico di Milano"/>
+</p>
+
+## Overview
