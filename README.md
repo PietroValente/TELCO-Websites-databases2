@@ -32,7 +32,7 @@ On database side, triggers have been implemented that automatically fill tables 
 
 ## TelcoConsumerWEB
 
-## Compile and usability
+## Usability
 
 
 ## Team
