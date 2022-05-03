@@ -40,7 +40,6 @@ On database side, triggers have been implemented that automatically fill tables 
     &nbsp;
  <a href="https://github.com/pietrovalente/TELCO-Websites-databases2/blob/main/Images/ConsumerPurchasedOrders.png"><img src="https://github.com/pietrovalente/TELCO-Websites-databases2/blob/main/Images/ConsumerPurchasedOrders.png" alt="" width="40%"></a></p>
  <br>
- <br>
  <p align="center">
  <a href="https://github.com/pietrovalente/TELCO-Websites-databases2/blob/main/Images/ConsumerDetailPackage1.png"><img src="https://github.com/pietrovalente/TELCO-Websites-databases2/blob/main/Images/ConsumerDetailPackage1.png" alt="" width="40%"></a>
     &nbsp;
