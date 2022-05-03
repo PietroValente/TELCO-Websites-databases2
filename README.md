@@ -31,6 +31,24 @@ On database side, triggers have been implemented that automatically fill tables 
  <a href="https://github.com/pietrovalente/TELCO-Websites-databases2/blob/main/Images/EmployeeSalesReport.png"><img src="https://github.com/pietrovalente/TELCO-Websites-databases2/blob/main/Images/EmployeeSalesReport.png" alt="" width="40%"></a></p>
 
 ## TelcoConsumerWEB
+<p align="center">
+ <a href="https://github.com/pietrovalente/TELCO-Websites-databases2/blob/main/Images/ConsumerHomepage.png"><img src="https://github.com/pietrovalente/TELCO-Websites-databases2/blob/main/Images/ConsumerHomepage.png" alt="" width="40%"></a>
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+ <a href="https://github.com/pietrovalente/TELCO-Websites-databases2/blob/main/Images/ConsumerPurchasedOrders.png"><img src="https://github.com/pietrovalente/TELCO-Websites-databases2/blob/main/Images/ConsumerPurchasedOrders.png" alt="" width="40%"></a></p>
+ <br>
+ <br>
+ <p align="center">
+ <a href="https://github.com/pietrovalente/TELCO-Websites-databases2/blob/main/Images/ConsumerDetailPackage1.png"><img src="https://github.com/pietrovalente/TELCO-Websites-databases2/blob/main/Images/ConsumerDetailPackage1.png" alt="" width="40%"></a>
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+ <a href="https://github.com/pietrovalente/TELCO-Websites-databases2/blob/main/Images/ConsumerDetailPackage2.png"><img src="https://github.com/pietrovalente/TELCO-Websites-databases2/blob/main/Images/ConsumerDetailPackage2.png" alt="" width="40%"></a></p>
 
 ## Usability
 
