@@ -49,12 +49,12 @@ CREATE TRIGGER number_of_purchasesnoop
 AFTER INSERT ON purchase
 FOR EACH ROW
 BEGIN
-	UPDATE validityperiodSalesReport
-	SET quantity = quantity+1
-	WHERE CAST(CAST(monthnumber AS CHAR) AS SIGNED) = TIMESTAMPDIFF(MONTH, NEW.startperiod, NEW.endperiod) AND pack = NEW.pack;
 	UPDATE packSalesReport
 	SET purchasesnoop = purchasesnoop+1
 	WHERE pack = NEW.pack;
+	UPDATE validityperiodSalesReport
+	SET quantity = quantity+1
+	WHERE CAST(CAST(monthnumber AS CHAR) AS SIGNED) = TIMESTAMPDIFF(MONTH, NEW.startperiod, NEW.endperiod) AND pack = NEW.pack;
 END;
 | delimiter ;
 
@@ -134,11 +134,11 @@ delimiter |
 CREATE TRIGGER create_alert
 AFTER UPDATE ON userSalesReport 
 FOR EACH ROW
-IF NEW.rejectedpurchases % 3 = 0 AND NEW.rejectedpurchases != 0 THEN
+IF NEW.rejectedpurchases % 3 = 0 AND NEW.rejectedpurchases != 0 AND NEW.solvent = 0 THEN
 BEGIN
-	DECLARE alert_price integer;
+	DECLARE alert_price FLOAT;
 	DECLARE user_email varchar(40);
-	SELECT SUM(price) FROM purchasesalesreport WHERE user = NEW.user AND rejected > 0 INTO alert_price;  
+	SELECT sum(price) FROM purchasesalesreport WHERE user = NEW.user AND rejected > 0 INTO alert_price;  
 	SELECT email FROM user WHERE username = NEW.user INTO user_email;
     IF (SELECT COUNT(*) FROM alert WHERE user = NEW.user) = 0 THEN
 	INSERT INTO alert(user, email, amount) 
