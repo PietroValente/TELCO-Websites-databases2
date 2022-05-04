@@ -53,6 +53,7 @@ On database side, triggers have been implemented that automatically fill tables 
 - Download Eclipse
 - Import TelcoEmployeeWEB, TelcoConsumerWEB and TelcoEJB into Eclipse
 - Follow the configuration instructions in the Configuration/SoftwareInstallationGuide.pdf file, in the Configuration folder you will find all the necessary files apart from the server folder (JARs, DB connector)
+- In MySQL execute files in this order telco_database.sql -> telco_initial_population.sql -> telco_triggers.sql
 - Before running a WEB, go to Properties -> Web Deployment Assembly and enter the TelcoEJB folder
 - Then Run As -> Run on Server and select the "Tomcat v9.0 Server at localhost" created
 
