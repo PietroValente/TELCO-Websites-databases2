@@ -55,7 +55,7 @@ On database side, triggers have been implemented that automatically fill tables 
 - Follow the configuration instructions in "Detailed configuration specifications", in the Configuration folder you will find all the necessary files apart from the server folder that you need to download from the site (https://tomee.apache.org/download-archive.html). It is important that is version 8.0.9. (if you have problems, in Configuration/SoftwareInstallationGuide.pdf file you can find a more detailed explanation of some procedures)
 - Before running a WEB, go to Properties -> Web Deployment Assembly and enter the TelcoEJB folder (Only one WEB at a time can have this property, otherwise the server gives an error)
 - Every time you want to change the web application you have to delete the server and recreate it as explained in the next section
-- Then Run As -> Run on Server and select the "Tomcat v9.0 Server at localhost" created
+- Right click on the WEB application -> Run As -> Run on Server and select the "Tomcat v9.0 Server at localhost" created
 
 ## Detailed configuration specifications
 - MySQL Workbench (File -> Open SQL Script...):
