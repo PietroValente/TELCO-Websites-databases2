@@ -88,7 +88,7 @@ On database side, triggers have been implemented that automatically fill tables 
         Username: your username <br>
         Password: your password
         
-    - Finish (If you have any problems, in particular with the driver setup, look in the appropriate section in the Configuration/SoftwareInstallationGuide.pdf file)
+    - Finish (if you have any problems, in particular with the driver setup, look in the appropriate section in the Configuration/SoftwareInstallationGuide.pdf file)
 
 ## Team
 - Pietro Valente
