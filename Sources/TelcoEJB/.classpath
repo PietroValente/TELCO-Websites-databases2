@@ -7,25 +7,55 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Progetto JPA/mysql-connector-java-8.0.26/mysql-connector-java-8.0.26.jar"/>
-	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Progetto JPA/apache-tomee-plume-8.0.9/lib/javaee-api-8.0-5-tomcat.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-9.0-doc/api/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Progetto JPA/eclipselink/jlib/jpa/jakarta.persistence_2.2.3.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0"/>
-	<classpathentry kind="lib" path="C:/Users/pietr/Documents/GitHub/database2/TelcoEJB/ejbModule/META-INF/lib/apiguardian-api-1.1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/pietr/Documents/GitHub/database2/TelcoEJB/ejbModule/META-INF/lib/byte-buddy-1.12.7.jar"/>
-	<classpathentry kind="lib" path="C:/Users/pietr/Documents/GitHub/database2/TelcoEJB/ejbModule/META-INF/lib/byte-buddy-agent-1.12.7.jar"/>
-	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Progetto JPA/eclipselink/jlib/eclipselink.jar"/>
-	<classpathentry kind="lib" path="C:/Users/pietr/eclipse-workspace/ITD/src/main/webapp/WEB-INF/lib/javaee-api-7.0.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/EclipseLink 2.7.9">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
 			<attribute name="owner.project.facets" value="jpt.jpa"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/pietr/Documents/GitHub/database2/TelcoEJB/ejbModule/META-INF/lib/openjpa-all-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/apiguardian-api-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/appfuse-jpa-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/byte-buddy-1.12.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/byte-buddy-1.12.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/byte-buddy-agent-1.12.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/classmate-1.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/FastInfoset-1.2.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/file-manager-common-1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/hibernate-commons-annotations-5.1.2.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/hibernate-core-5.6.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/istack-commons-runtime-3.0.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/jakarta.persistence.source_2.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/jakarta.persistence_2.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/jandex-2.4.2.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/javax.activation-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/javax.ejb.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/javax.persistence.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/javax.persistence-api-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/javax.servlet-3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/jaxb-api-2.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/jaxb-runtime-2.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/jboss-logging-3.4.3.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/mysql-connector-java-8.0.26.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/objenesis-3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/openjpa-all-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/opentest4j-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/org.apache.servicemix.bundles.spring-web-5.3.15_1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/org.eclipse.persistence.jpa.modelgen.source_2.7.10.v20211216-fe64cd39c3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/org.eclipse.persistence.jpa.modelgen_2.7.10.v20211216-fe64cd39c3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/org.eclipse.persistence.jpars.source_2.7.10.v20211216-fe64cd39c3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/org.eclipse.persistence.jpars_2.7.10.v20211216-fe64cd39c3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/protobuf-java-3.11.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/querydsl-jpa-2.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/spring-beans-5.3.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/spring-core-5.3.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/spring-jcl-5.3.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/spring-web-5.3.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/stax-ex-1.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Sources/TelcoEJB/ejbModule/META-INF/lib/txw2-2.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Configuration/eclipselink/jlib/eclipselink.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pietr/Desktop/Uni Milano/Anno 1/1.Database 2/Telco project/Configuration/apache-tomee-plume-8.0.9/lib/javaee-api-8.0-5-tomcat.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

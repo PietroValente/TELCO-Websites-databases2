@@ -3,6 +3,7 @@
 	<name>TelcoConsumerWEB</name>
 	<comment></comment>
 	<projects>
+		<project>TelcoEJB</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
