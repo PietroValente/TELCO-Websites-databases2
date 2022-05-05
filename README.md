@@ -81,9 +81,9 @@ On database side, triggers have been implemented that automatically fill tables 
 - Connect telco database to Eclipse (only after EclipseLink 2.7.9 library is installed, as shown in the previous point):
     - JPA -> Add connection -> Connection Profile Types: MySQL
     
-        Database: telco
-        URL: jdbc:mysql://localhost:3306/database
-        Username: your username
+        Database: telco <br>
+        URL: jdbc:mysql://localhost:3306/database <br>
+        Username: your username <br>
         Password: your password
         
     - Finish (If you have any problems, in particular with the driver setup, look in the appropriate section in the Configuration/SoftwareInstallationGuide.pdf file)
