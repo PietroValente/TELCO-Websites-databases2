@@ -52,12 +52,17 @@ On database side, triggers have been implemented that automatically fill tables 
 ## Usability
 - Download Eclipse
 - Import TelcoEmployeeWEB, TelcoConsumerWEB and TelcoEJB into Eclipse
-- Follow the configuration instructions in the Configuration/SoftwareInstallationGuide.pdf file, in the Configuration folder you will find all the necessary files apart from the server folder (JARs, DB connector)
-- In MySQL execute files in this order telco_database.sql -> telco_initial_population.sql -> telco_triggers.sql
-- Before running a WEB, go to Properties -> Web Deployment Assembly and enter the TelcoEJB folder
+- Follow the configuration instructions in the Configuration/SoftwareInstallationGuide.pdf file, in the Configuration folder you will find all the necessary files apart from the server folder that you need to download from the site (https://tomee.apache.org/download-archive.html). It is important that is version 8.0.9
+- Before running a WEB, go to Properties -> Web Deployment Assembly and enter the TelcoEJB folder (Only one WEB at a time can have this property, otherwise the server gives an error)
+- Every time you want to change the web application you have to delete the server and recreate it as explained in the next section
 - Then Run As -> Run on Server and select the "Tomcat v9.0 Server at localhost" created
 
 ## Detailed configuration specifications
+- MySQL Workbench (File -> Open SQL Script...):
+    - Import telco_database.sql and run it
+    - Import telco_initial_population.sql and run it
+    - Import telco_triggers.sql and run it
+
 - Server:
     - Download apache-tomee-plume-8.0.9
     - Open Eclipse -> Define a New Server -> Apache -> Tomcat v9.0 Server -> Select "apache-tomee-plume-8.0.9" folder downloaded
@@ -72,6 +77,12 @@ On database side, triggers have been implemented that automatically fill tables 
     - eclipselink.jar (Configuration/eclipselink/jlib)
     - javaee-api-8.0-5-tomcat.jar (apache-tomee-plume-8.0.9/lib)
     - Add Library -> User Library -> User Libraries -> New -> Call it: EclipseLink 2.7.9 -> import Configuration/eclipselink/jlib/eclipselink.jar and all Configuration/eclipselink/jlib/jpa/* .jar
+
+- Connect telco database to Eclipse (only after EclipseLink 2.7.9 library is installed, as shown in the previous point):
+    - JPA -> Add connection -> Connection Profile Types: MySQL
+    
+        Database: telco
+
 ## Team
 - Pietro Valente
 - Andrea Seghetto
