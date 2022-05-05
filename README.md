@@ -84,7 +84,7 @@ On database side, triggers have been implemented that automatically fill tables 
     - JPA -> Add connection -> Connection Profile Types: MySQL
     
         Database: telco <br>
-        URL: jdbc:mysql://localhost:3306/database <br>
+        URL: jdbc:mysql://localhost:3306/telco <br>
         Username: your username <br>
         Password: your password
         
