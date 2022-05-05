@@ -57,6 +57,10 @@ On database side, triggers have been implemented that automatically fill tables 
 - Before running a WEB, go to Properties -> Web Deployment Assembly and enter the TelcoEJB folder
 - Then Run As -> Run on Server and select the "Tomcat v9.0 Server at localhost" created
 
+## Detailed configuration specifications
+- prova:
+    -
+    -
 ## Team
 - Pietro Valente
 - Andrea Seghetto
