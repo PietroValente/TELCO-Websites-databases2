@@ -65,6 +65,7 @@ On database side, triggers have been implemented that automatically fill tables 
 
 - Server:
     - Download apache-tomee-plume-8.0.9
+    - Copy Configuration/mysql-connector-java-8.0.26/mysql-connector-java-8.0.26.jar into folder apache-tomee-plume-8.0.9/lib
     - Open Eclipse -> Define a New Server -> Apache -> Tomcat v9.0 Server -> Select "apache-tomee-plume-8.0.9" folder downloaded
     - Project Explorer -> Servers -> Tomcat v9.0 Server at localhost-config -> copy here the tomee.xml file (you can find it in my Configuration folder)
 
@@ -82,6 +83,7 @@ On database side, triggers have been implemented that automatically fill tables 
 
 - Connect telco database to Eclipse (only after EclipseLink 2.7.9 library is installed, as shown in the previous point):
     - JPA -> Add connection -> Connection Profile Types: MySQL
+    - Edit Driver Definition (small triangle at the top right) -> JAR list -> Add JAR/Zip -> select Configuration/mysql-connector-java-8.0.26/mysql-connector-java-8.0.26.jar and apply
     
         Database: telco <br>
         URL: jdbc:mysql://localhost:3306/telco <br>
