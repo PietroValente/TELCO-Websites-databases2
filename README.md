@@ -68,11 +68,13 @@ On database side, triggers have been implemented that automatically fill tables 
     - Open Eclipse -> Define a New Server -> Apache -> Tomcat v9.0 Server -> Select "apache-tomee-plume-8.0.9" folder downloaded
     - Project Explorer -> Servers -> Tomcat v9.0 Server at localhost-config -> copy here the tomee.xml file (you can find it in my Configuration folder)
 
-- JAR for WEB application (Properties -> Java Build Path -> Add external JARs):
+- Before adding the JARs, delete the ones marked in red in Properties -> Java Build Path
+
+- JARs for WEB application (Properties -> Java Build Path -> Add external JARs):
     - javaee-api-8.0-5-tomcat.jar (apache-tomee-plume-8.0.9/lib)
     - servlet-api.jar (apache-tomee-plume-8.0.9/lib)
  
-- JAR for EJB application (Properties -> Java Build Path -> Add external JARs):
+- JARs for EJB application (Properties -> Java Build Path -> Add external JARs):
     - all .jar present in TelcoEJB/ejbModule/META-INF/lib
     - eclipselink.jar (Configuration/eclipselink/jlib)
     - javaee-api-8.0-5-tomcat.jar (apache-tomee-plume-8.0.9/lib)
