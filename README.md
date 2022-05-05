@@ -58,9 +58,20 @@ On database side, triggers have been implemented that automatically fill tables 
 - Then Run As -> Run on Server and select the "Tomcat v9.0 Server at localhost" created
 
 ## Detailed configuration specifications
-- prova:
-    -
-    -
+- Server:
+    - Download apache-tomee-plume-8.0.9
+    - Open Eclipse -> Define a New Server -> Apache -> Tomcat v9.0 Server -> Select "apache-tomee-plume-8.0.9" folder downloaded
+    - Project Explorer -> Servers -> Tomcat v9.0 Server at localhost-config -> copy here the tomee.xml file (you can find it in my Configuration folder)
+
+- JAR for WEB application (Properties -> Java Build Path -> Add external JARs):
+    - javaee-api-8.0-5-tomcat.jar (apache-tomee-plume-8.0.9/lib)
+    - servlet-api.jar (apache-tomee-plume-8.0.9/lib)
+ 
+- JAR for EJB application (Properties -> Java Build Path -> Add external JARs):
+    - all .jar present in TelcoEJB/ejbModule/META-INF/lib
+    - eclipselink.jar (Configuration/eclipselink/jlib)
+    - javaee-api-8.0-5-tomcat.jar (apache-tomee-plume-8.0.9/lib)
+    - Add Library -> User Library -> User Libraries -> New -> Call it: EclipseLink 2.7.9 -> import Configuration/eclipselink/jlib/eclipselink.jar and all Configuration/eclipselink/jlib/jpa/* .jar
 ## Team
 - Pietro Valente
 - Andrea Seghetto
