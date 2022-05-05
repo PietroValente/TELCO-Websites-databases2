@@ -52,7 +52,7 @@ On database side, triggers have been implemented that automatically fill tables 
 ## Usability
 - Download Eclipse
 - Import TelcoEmployeeWEB, TelcoConsumerWEB and TelcoEJB into Eclipse
-- Follow the configuration instructions in the Configuration/SoftwareInstallationGuide.pdf file, in the Configuration folder you will find all the necessary files apart from the server folder that you need to download from the site (https://tomee.apache.org/download-archive.html). It is important that is version 8.0.9
+- Follow the configuration instructions in "Detailed configuration specifications", in the Configuration folder you will find all the necessary files apart from the server folder that you need to download from the site (https://tomee.apache.org/download-archive.html). It is important that is version 8.0.9. (if you have problems, in Configuration/SoftwareInstallationGuide.pdf file you can find a more detailed explanation of some procedures)
 - Before running a WEB, go to Properties -> Web Deployment Assembly and enter the TelcoEJB folder (Only one WEB at a time can have this property, otherwise the server gives an error)
 - Every time you want to change the web application you have to delete the server and recreate it as explained in the next section
 - Then Run As -> Run on Server and select the "Tomcat v9.0 Server at localhost" created
@@ -82,6 +82,11 @@ On database side, triggers have been implemented that automatically fill tables 
     - JPA -> Add connection -> Connection Profile Types: MySQL
     
         Database: telco
+        URL: jdbc:mysql://localhost:3306/database
+        Username: your username
+        Password: your password
+        
+    - Finish (If you have any problems, in particular with the driver setup, look in the appropriate section in the Configuration/SoftwareInstallationGuide.pdf file)
 
 ## Team
 - Pietro Valente
